@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sesion"
+        android:padding="4dp"
+        android:text="@string/tvTitulo"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroidLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvVersionAndroidLB"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvVersionAndroid"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvLight"
+        android:textSize="18sp" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnOn"
+            android:textColorLink="@color/btns" />
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnOff" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvLevelBaterryLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvLevelBaterryLB"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvLevelBaterry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvLevelBaterry"
+        android:textSize="18sp" />
+
+
+    <ProgressBar
+        android:id="@+id/pbLevelBatery"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvConexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvConexion"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvConexionInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConexionInternet" />
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sesion"
+        android:padding="4dp"
+        android:text="@string/tvTitulo2"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvDactilar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvDactilar"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvCamera"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvEws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvEws"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvRs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvRs"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvInternet"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvSms"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvReadContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvReadContacts"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCheckPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btns"
+        android:text="@string/btnCheckPermission" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRequestPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnResquestPermission" />
+
+        <Button
+            android:id="@+id/btnResquestPermissionDactilar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnResquestPermissionDactilar" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnResquestPermissionES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnResquestPermissionES" />
+
+        <Button
+            android:id="@+id/btnResquestPermissionRS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnResquestPermissionRS" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnResquestPermissionSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnResquestPermissionSMS" />
+
+        <Button
+            android:id="@+id/btnResquestPermissionRC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btns"
+            android:text="@string/btnResquestPermissionRC" />
+    </TableRow>
+
+    <EditText
+        android:id="@+id/etDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/tvDoc"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/btnSaveFileTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btns"
+        android:gravity="center"
+        android:text="@string/btnSaveFileTxt" />
+
+    <TextView
+        android:id="@+id/tvResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvResponse"
+        android:textSize="18sp" />
+
+</LinearLayout>
