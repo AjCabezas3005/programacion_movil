@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#E3F2FD</color>
+    <color name="sesion_part">#2196F3</color>
+    <color name="input">#BBDEFB</color>
+    <color name="wey">#424242</color>
+    <color name="btnCrear">#2196F3</color>
+    <color name="btnLimpiar">#00695C</color>
+    <color name="bntListar">#0D47A1</color>
+    <color name="btnEliminar">#D50000</color>
+    <color name="btnActualizar">#6200ea</color>
+    <color name="btnBuscar">#004D40</color>
+
+</resources>
