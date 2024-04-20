@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Actividad4</string>
+    <string name="tvTitulo">Registro de Usuarios </string>
+    <string name="etDocumentos">Ingrese  Documento </string>
+    <string name="etNombres">Ingrese Nombres </string>
+    <string name="etApellidos">Ingrese Apellidos</string>
+    <string name="etUsuario">Asigne Usuario</string>
+    <string name="etContra">Asigne Contraseña</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnListar">Listar</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+</resources>
